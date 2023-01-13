@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Aleatorio</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        var urls = new Array();
+        urls[0] = "categoria/accion/Topgun-Maverick.html";
+        urls[1] = "categoria/accion/6-En-la-sombra.html";
+        urls[2] = "categoria/accion/El Señor de la Guerra.html";
+        urls[3] = "categoria/accion/Fast-and-Furious-Hobbs-and-Shaw.html";
+        urls[7] = "categoria/terror/Anarchy-La-noche-de-las-bestias.html";
+        urls[5] = "categoria/drama/Ghost-Rider-Saga.html";
+        urls[6] = "categoria/superheroes/Spider-man-saga.html";
+        urls[7] = "categoria/comedia/Saga-Shin-chan.html";
+        urls[8] = "categoria/drama/Ghost-Rider-Saga.html";
+        urls[9] = "categoria/superheroes/Spider-man-saga.html";
+        urls[10] = "categoria/comedia/Saga-Shin-chan.html";
+        
+        var random = Math.floor(Math.random()*urls.length);
+        
+        window.location = urls[random];
+        
+        </script>
+</body>
+</html>
